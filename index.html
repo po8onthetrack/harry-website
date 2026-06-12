@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harry Zhang — Software Engineer</title>
+  <meta name="description" content="Harry Zhang — Computer Engineering student at the University of Toronto building reliable, high-performance software. Projects, experience, and résumé." />
+  <meta name="author" content="Harry Zhang" />
+
+  <!-- Social preview -->
+  <meta property="og:title" content="Harry Zhang — Software Engineer" />
+  <meta property="og:description" content="Computer Engineering @ UofT. I build reliable, high-performance software." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand">HZ</a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about"><span>01.</span> About</a>
+        <a href="#experience"><span>02.</span> Experience</a>
+        <a href="#projects"><span>03.</span> Projects</a>
+        <a href="#skills"><span>04.</span> Skills</a>
+        <a href="#contact"><span>05.</span> Contact</a>
+        <a href="Harry_Zhang_resume.pdf" class="btn btn--sm" target="_blank" rel="noopener">Résumé</a>
+      </nav>
+      <div class="nav__actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle theme">🌙</button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow reveal">Hi, my name is</p>
+        <h1 class="hero__name reveal">Harry Zhang.</h1>
+        <h2 class="hero__tagline reveal">I build reliable software.</h2>
+        <p class="hero__lede reveal">
+          I'm a Computer Engineering student at the <strong>University of Toronto</strong>
+          who loves turning hard problems into clean, well-tested systems — from
+          low-level hardware to full applications. I'm currently seeking
+          <strong>software engineering internships</strong> where I can ship products at scale.
+        </p>
+        <div class="hero__cta reveal">
+          <a href="#projects" class="btn">View my work</a>
+          <a href="Harry_Zhang_resume.pdf" class="btn btn--ghost" target="_blank" rel="noopener">Download résumé</a>
+        </div>
+        <div class="hero__socials reveal">
+          <a href="https://github.com/po8onthetrack" target="_blank" rel="noopener" data-github>GitHub</a>
+          <a href="https://www.linkedin.com/in/harryhnzhang/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:harryh.zhang@mail.utoronto.ca">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">01.</span> About me</h2>
+        <div class="about">
+          <div class="about__text">
+            <p>
+              Hello! I'm Harry, a Computer Engineering student at the University of
+              Toronto (PEY Co-op program). I enjoy working across the full stack of
+              computing — from writing Verilog that runs directly on hardware to
+              building modular C++ systems that process large real-world datasets.
+            </p>
+            <p>
+              I care about writing code that's <em>correct, maintainable, and easy for
+              teammates to build on</em>. Through coursework and research I've practiced
+              debugging tricky logic and memory issues, validating performance, and
+              documenting my work so a whole team stays aligned.
+            </p>
+            <p>
+              I'm now focused on software engineering, and I'm looking for internship
+              opportunities at companies solving large-scale problems. Here are some
+              technologies I've been working with:
+            </p>
+            <ul class="about__list">
+              <li>C / C++</li>
+              <li>Python</li>
+              <li>PyTorch</li>
+              <li>Verilog</li>
+              <li>RISC-V Assembly</li>
+              <li>Git / GitHub</li>
+            </ul>
+          </div>
+          <aside class="about__aside">
+            <div class="about__card">
+              <h3>Quick facts</h3>
+              <ul>
+                <li><span>🎓</span> BASc Computer Engineering, UofT</li>
+                <li><span>📊</span> cGPA 3.65 / 4.00</li>
+                <li><span>🏅</span> Dean's List · 3× scholarship</li>
+                <li><span>📍</span> Toronto, Ontario</li>
+                <li><span>🗓️</span> Graduating Apr 2029</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="experience" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">02.</span> Experience</h2>
+        <div class="timeline">
+          <article class="timeline__item">
+            <div class="timeline__meta">
+              <span class="timeline__date">Jan – Apr 2025</span>
+            </div>
+            <div class="timeline__body">
+              <h3>Undergraduate Researcher
+                <span class="timeline__company">· WHEEL Lab, University of Toronto</span>
+              </h3>
+              <p class="timeline__sub">Wellness and Health Enhancement Engineering Lab — supervised by Dr. Enid Montague</p>
+              <ul>
+                <li>Helped redesign a usability-testing lab for studying physician–technology interactions in primary care.</li>
+                <li>Tested and validated a prototype data-capture system through multimodal performance tests, achieving strong multimodal coverage of <strong>0.91</strong>.</li>
+                <li>Coordinated quality assurance of 3D lab-layout models in Fusion 360 and Blender, improving client communication and enabling accurate feasibility assessment.</li>
+              </ul>
+              <div class="tags">
+                <span>Usability Testing</span><span>Fusion 360</span><span>Blender</span><span>QA</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">03.</span> Featured projects</h2>
+        <div class="projects">
+
+          <article class="card">
+            <div class="card__top">
+              <span class="card__icon">🤖</span>
+              <div class="card__links">
+                <a href="https://github.com/po8onthetrack/Deep-Learning-Project" target="_blank" rel="noopener" aria-label="GitHub repository">Code</a>
+              </div>
+            </div>
+            <h3 class="card__title">Pose-Based Human Action Recognition</h3>
+            <p class="card__meta">APS360 Deep Learning Project · In progress, 2026</p>
+            <p class="card__desc">
+              A deep-learning system that recognizes athletic movement from body pose
+              alone: given a short sequence of 17 body keypoints tracked from a single
+              camera, it classifies the action — no motion-capture gear. Inspired by
+              badminton and bouldering, aimed at movement analysis and injury-aware coaching.
+            </p>
+            <ul class="card__points">
+              <li>Trains an RNN over 30-frame pose sequences (MPOSE2021, 20 action classes) in PyTorch.</li>
+              <li>Normalizes &amp; cleans keypoints — hip-centering, torso scaling, confidence masking — with a subject-independent, leakage-aware split.</li>
+              <li>Benchmarks against an MLP baseline on time-averaged pose; evaluated with accuracy &amp; macro-F1.</li>
+            </ul>
+            <div class="tags">
+              <span>Python</span><span>PyTorch</span><span>RNN</span><span>MoveNet</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__top">
+              <span class="card__icon">🗺️</span>
+              <div class="card__links">
+                <a href="https://github.com/po8onthetrack" target="_blank" rel="noopener" data-github aria-label="GitHub repository">Code</a>
+              </div>
+            </div>
+            <h3 class="card__title">Geographic Information System for the City of Toronto</h3>
+            <p class="card__meta">ECE297 Software Design Project · 2026</p>
+            <p class="card__desc">
+              A modular mapping application that loads and queries OpenStreetMap data
+              for the City of Toronto. I focused on clean, maintainable C++ and
+              efficient data structures to keep map loading stable and queries fast at
+              large scale.
+            </p>
+            <ul class="card__points">
+              <li>Built modular C++ solutions with STL containers &amp; algorithms to process OSM data.</li>
+              <li>Used the Git/GitHub workflow and the VS Code debugger to find logic and memory issues.</li>
+              <li>Researched OSM data formats and wrote clear technical docs to keep the team aligned.</li>
+            </ul>
+            <div class="tags">
+              <span>C++</span><span>STL</span><span>OpenStreetMap</span><span>Git</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__top">
+              <span class="card__icon">🎮</span>
+              <div class="card__links">
+                <a href="https://github.com/po8onthetrack" target="_blank" rel="noopener" data-github aria-label="GitHub repository">Code</a>
+              </div>
+            </div>
+            <h3 class="card__title">Connect8 — Hardware Puzzle Game on FPGA</h3>
+            <p class="card__meta">ECE241 Digital Systems Project · Nov 2025</p>
+            <p class="card__desc">
+              A complete puzzle game implemented entirely in hardware on the DE1-SoC
+              board. The whole game loop — input, logic, and rendering — runs on the
+              FPGA at a smooth, consistent 60 FPS.
+            </p>
+            <ul class="card__points">
+              <li>Implemented block movement, collision detection, and an 8×8 line-clear engine in Verilog.</li>
+              <li>Integrated a PS/2 keyboard controller, VGA renderer, and a 16-bit LFSR block generator.</li>
+              <li>Debugged critical rotation/collision errors and revised code against testbench validation.</li>
+            </ul>
+            <div class="tags">
+              <span>Verilog</span><span>FPGA</span><span>DE1-SoC</span><span>VGA</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills + Education ===== -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">04.</span> Skills &amp; education</h2>
+        <div class="skills">
+          <div class="skills__group">
+            <h3>Languages</h3>
+            <ul><li>C</li><li>C++</li><li>Python</li><li>Verilog</li><li>RISC-V Assembly (NIOS V)</li><li>MATLAB</li></ul>
+          </div>
+          <div class="skills__group">
+            <h3>Tools</h3>
+            <ul><li>Git / GitHub</li><li>PyTorch</li><li>VS Code</li><li>Fusion 360</li><li>Blender</li><li>AutoCAD</li></ul>
+          </div>
+          <div class="skills__group">
+            <h3>Foundations</h3>
+            <ul><li>Deep Learning</li><li>Data Structures &amp; Algorithms</li><li>Computer Organization</li><li>Digital Systems</li><li>Signals &amp; Systems</li><li>Linear Algebra</li></ul>
+          </div>
+          <div class="skills__group">
+            <h3>Education</h3>
+            <ul class="skills__edu">
+              <li><strong>University of Toronto</strong></li>
+              <li>BASc, Computer Engineering (PEY Co-op)</li>
+              <li>Sept 2024 – Apr 2029 · cGPA 3.65/4.00</li>
+            </ul>
+            <h3 class="skills__subhead">Honors</h3>
+            <ul>
+              <li>Dean's List (Fall '24, Winter &amp; Fall '25)</li>
+              <li>FASE Admission Scholarship ($10,000)</li>
+              <li>Edward S. Rogers Sr. Scholarship ($2,500)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section section--contact">
+      <div class="container">
+        <p class="contact__eyebrow">05. What's next?</p>
+        <h2 class="contact__title">Get in touch</h2>
+        <p class="contact__text">
+          I'm actively looking for software engineering internships. Whether you have
+          an opportunity or just want to connect, my inbox is always open — I'll do my
+          best to get back to you quickly.
+        </p>
+        <a href="mailto:harryh.zhang@mail.utoronto.ca" class="btn btn--lg">Say hello</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__socials">
+        <a href="https://github.com/po8onthetrack" target="_blank" rel="noopener" data-github>GitHub</a>
+        <a href="https://www.linkedin.com/in/harryhnzhang/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:harryh.zhang@mail.utoronto.ca">Email</a>
+      </div>
+      <p>Designed &amp; built by Harry Zhang · <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
